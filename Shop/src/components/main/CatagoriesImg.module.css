@@ -1,0 +1,57 @@
+.CatagoriesImg {
+  display: grid;
+  grid-template-areas:
+    "first second third "
+    "fourth fifth sixth"
+    "seventh eighth ninth";
+  height: 700px;
+  overflow: hidden;
+  padding: 1.3rem;
+  list-style: none;
+  gap: 3.2rem;
+  height: 50rem;
+  overflow: hidden;
+}
+.CatagoriesImg:hover {
+  overflow-y: scroll;
+}
+.CatagoriesBox {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  height: 250px;
+  border-radius: 1.2rem;
+  justify-content: start;
+}
+.CatagoriesBox li {
+  justify-self: right;
+  color: rgb(37, 95, 170);
+}
+.CatagoriesBox img {
+  width: 100%;
+  height: 100%;
+}
+.CatagoriesBox img:hover {
+  scale: 1.1;
+}
+.infoCatagories {
+  padding: 1.2rem;
+  text-transform: capitalize;
+}
+.header {
+  display: flex;
+  justify-self: flex-start;
+  text-transform: capitalize;
+  justify-self: left;
+  font-weight: 500;
+  color: black !important;
+}
+/* .CatagoriesImg img:hover {
+  grid-area: head;
+  width: 500px;
+  justify-self: center;
+}
+.CatagoriesImg img {
+  width: 200px;
+} */

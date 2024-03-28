@@ -1,0 +1,133 @@
+/* src/components/SignUp.module.css
+
+.signUpContainer {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signUpForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup {
+  margin-bottom: 20px;
+}
+
+.formControl {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #0056b3;
+} */
+/* ////////////////////////////////////// */
+h2,
+h1 {
+  text-align: center;
+  color: white;
+  text-transform: capitalize;
+  margin-bottom: 1.2em;
+}
+h1 {
+  color: black;
+}
+.signUpcontinar {
+  display: grid;
+  width: fit-content;
+  margin: 3.2rem auto;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 1.9rem;
+  overflow: hidden;
+  box-shadow: 0 0 1rem rgba(117, 99, 99, 0.315);
+  text-transform: capitalize;
+  background-color: var(--secondary-color);
+}
+
+.toLogin a,
+.signUpcontinar button {
+  display: inline;
+  width: fit-content;
+  padding: 1rem 3.2rem;
+  text-transform: capitalize;
+  justify-self: center;
+  border-radius: 2rem;
+  background: none;
+  border: 1px solid rgba(255, 255, 255, 0.521);
+  align-self: center;
+  margin-top: 3.2rem;
+  cursor: pointer;
+}
+.ContainerBox {
+  background-color: white;
+  padding: 1.2rem;
+}
+.signUp button {
+  color: black;
+  background-color: var(--bright-color);
+}
+.toLogin {
+  background-color: var(--dark-color);
+  padding: 1.2rem;
+  display: grid;
+  padding: 3.2rem;
+  align-content: center;
+}
+.toLogin a {
+  color: rgb(255, 255, 255);
+  padding: 0.5rem 3.2rem;
+}
+.toLogin a:hover {
+  color: rgb(255, 255, 255);
+}
+.signUp span {
+  text-align: center;
+  margin: 1.2rem 0;
+}
+.toLogin span {
+  color: rgba(231, 228, 221, 0.699);
+  margin: 1.2rem 0;
+}
+.signUp {
+  align-content: center;
+  display: grid;
+  padding: 6.4rem;
+}
+.signUp input {
+  padding: 1.2rem;
+  background-color: rgba(175, 177, 176, 0.493);
+  margin-top: 1.2rem;
+  outline: none;
+}
+
+.social {
+  display: flex;
+  gap: 3.2rem;
+  justify-content: center;
+}
+
+.social a {
+  border: 1px solid rgba(172, 168, 168, 0.555);
+  border-radius: 50%;
+  padding: 1.2rem;
+  width: 5rem;
+  height: 5rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  cursor: pointer;
+}

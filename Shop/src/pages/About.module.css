@@ -1,0 +1,31 @@
+/* AboutPage.module.css */
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.ContainerBox {
+  background-color: white;
+}
+
+.description {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  align-self: center;
+  padding: 3.2rem;
+}
+.containerAbout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 3.2rem;
+}
+img {
+  width: 80%;
+  height: 80%;
+}
+.general {
+  grid-column: 1/-1;
+}

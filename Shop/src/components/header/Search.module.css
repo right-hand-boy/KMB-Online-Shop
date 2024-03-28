@@ -1,0 +1,21 @@
+.Search {
+  font-size: 1.6rem;
+  width: 100%;
+  padding: 1rem 1.2rem;
+  align-self: baseline;
+}
+.Search:focus-visible {
+  outline: none;
+}
+.searchForm {
+  display: flex;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  align-items: center;
+}
+.searchForm button {
+  align-self: stretch;
+  cursor: pointer;
+  padding-right: 1rem;
+  background-color: white;
+}

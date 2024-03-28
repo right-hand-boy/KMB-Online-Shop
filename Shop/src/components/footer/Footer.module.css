@@ -1,0 +1,70 @@
+.footerContinar {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 3.2rem;
+  row-gap: 3.2rem;
+}
+.continar {
+  background-color: var(--dark-color);
+}
+.footerForm {
+  flex-direction: column;
+  display: flex;
+  gap: 1.2rem;
+}
+.footerForm li,
+.footerForm a {
+  color: rgba(161, 155, 155, 0.658);
+  list-style: none;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+.formHeader {
+  color: white !important;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.socialLink {
+  display: flex;
+  list-style: none;
+  font-size: 2rem;
+  gap: 3.2rem;
+  color: white;
+  text-transform: capitalize;
+}
+.more {
+  display: grid;
+  align-items: end;
+  grid-template-columns: 1fr 2fr;
+  justify-content: space-around;
+  padding: 3.2rem;
+}
+.footerMore {
+  display: flex;
+  gap: 3.2em;
+  align-items: end;
+  color: white;
+}
+.privacyGuides {
+  display: grid;
+  width: 100%;
+  color: white;
+}
+.guide,
+.privacy {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  color: white;
+  text-transform: capitalize;
+  gap: 3.2rem;
+}
+.privacy {
+  margin-top: 4.4rem;
+}
+footer {
+  width: 100%;
+}
+li {
+  cursor: pointer;
+}

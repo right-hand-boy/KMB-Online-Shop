@@ -1,0 +1,32 @@
+.nav {
+  display: flex;
+  gap: 3.2rem;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  list-style: none;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav a {
+  color: rgb(255, 255, 255);
+  font-size: 2.4rem;
+  font-weight: 500;
+}
+.nav {
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+}
+
+.nav li {
+  font-size: 2rem;
+  position: relative;
+  overflow: hidden;
+}
+.signUp {
+  background-color: var(--bright-color);
+  padding: 0.5rem;
+  border-radius: 0.9rem;
+  display: block;
+  color: black !important;
+}

@@ -1,0 +1,33 @@
+/* ContactPage.module.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.ContainerBox {
+  background-color: white;
+}
+.description {
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.contactInfo {
+  margin-top: 20px;
+}
+
+.infoItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.infoItem i {
+  margin-right: 10px;
+}
+
+.infoItem span {
+  font-size: 16px;
+}

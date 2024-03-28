@@ -1,0 +1,10 @@
+.header {
+  display: grid;
+  grid-template-columns: auto 2fr 3fr;
+  box-shadow: var(--border-shadow);
+  align-items: center;
+  justify-content: baseline;
+  padding: 1.2rem;
+  column-gap: 6.4rem;
+  overflow: hidden;
+}

@@ -1,0 +1,12 @@
+.logo {
+  position: relative;
+  padding: 0.5rem 3.2rem;
+  margin-left: auto;
+  font-size: 2.4rem;
+  box-shadow: 0 0 0.5rem white;
+  margin-left: 4.4rem;
+  background-color: transparent;
+}
+.logo {
+  color: white !important;
+}

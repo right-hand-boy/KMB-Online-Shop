@@ -1,0 +1,192 @@
+/* HomePage.module.css */
+/* ////////////////////////////////////// */
+.home {
+  background: linear-gradient(to bottom, black, rgb(119, 117, 117));
+  background-position: top;
+  background-size: cover;
+  background-image: url(/public/background-image.jpg) !important;
+  z-index: 9999;
+}
+
+.homePage {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+.homePage img {
+  align-self: stretch;
+  width: 100%;
+  height: 100%;
+}
+.hero {
+  padding: 3.2rem;
+  /* background-image: url(/public/her.mp4); */
+  background-color: var(--secondary-color-dark);
+}
+.hero h1 {
+  text-align: left;
+  width: 550px;
+  font-size: 5rem;
+  font-weight: 900;
+  color: rgb(255, 255, 255);
+  font-family: serif;
+}
+.hero p {
+  width: 60%;
+  line-height: 1.8;
+  word-spacing: 1.2;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+.shopNow {
+  padding: 1rem 4.2rem;
+  margin-top: 3.2rem;
+  /* border-radius: 2rem; */
+  background-color: var(--bright-color);
+  text-transform: capitalize;
+  color: rgb(3, 3, 3);
+  cursor: pointer;
+  font-weight: 700;
+}
+.shopNow:hover {
+  background-color: var(--light-color);
+  color: black;
+}
+/* ////////////////////////////////////// */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.featuredProducts,
+.newArrivals {
+  margin-bottom: 40px;
+}
+
+.productCard {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.productImage {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.productTitle {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.productPrice {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.addToCartButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.footer {
+  margin-top: 40px;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f8f8f8;
+}
+/* .askButton,
+.ask {
+  position: fixed;
+  align-content: center;
+  bottom: 3.2rem;
+  right: 3.2rem;
+  z-index: 9999;
+}
+.ask {
+  border-radius: 0.6rem;
+  overflow: hidden;
+  bottom: 9.2rem;
+} */
+.ask {
+  display: grid;
+}
+.askForm {
+  background-color: rgb(154, 158, 158);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.322);
+  position: fixed;
+  bottom: 25vh;
+  right: 3.2rem;
+  z-index: 9999;
+  padding: 1.2rem;
+  display: grid;
+  border-radius: 1.2rem;
+}
+.ask textarea,
+.ask input {
+  padding: 1.2rem;
+  /* background-color: rgba(175, 177, 176, 0.493); */
+  outline: #007bff;
+  width: fit-content;
+  align-self: center;
+  margin-bottom: 3.2rem;
+  width: 100%;
+}
+.ask textarea {
+  width: 45vh;
+  border-top-left-radius: 1.2rem;
+  border-top-right-radius: 1.2rem;
+  height: 25vh;
+}
+.askButton {
+  padding: 1.2rem 3.2rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  text-align: center;
+  align-self: stretch;
+  justify-self: center;
+  background: none;
+  /* margin-top: 3.2rem;heu */
+  border: 1px solid white;
+  border-radius: 2rem;
+  outline: none;
+}
+.hidden {
+  display: none;
+}
+.messageSucces,
+.messageError {
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+.messageSucces {
+  color: green;
+}
+.messageError {
+  color: red;
+}
