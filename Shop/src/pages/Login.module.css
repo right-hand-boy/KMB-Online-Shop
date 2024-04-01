@@ -181,14 +181,18 @@
   background-color: #0056b3;
 } */
 /* ////////////////////////////////////// */
-h2,
-h1 {
+.signUpcontinar h2,
+.signUpcontinar h1 {
   text-align: center;
   color: white;
   text-transform: capitalize;
   margin-bottom: 1.2em;
 }
-h1 {
+.headerBox {
+  background-color: black;
+}
+
+.signUpcontinar h1 {
   color: black;
 }
 .signUpcontinar {
@@ -200,7 +204,6 @@ h1 {
   overflow: hidden;
   box-shadow: 0 0 1rem rgba(117, 99, 99, 0.315);
   text-transform: capitalize;
-  background-color: var(--secondary-color);
 }
 .ContainerBox {
   background-color: white;
@@ -219,14 +222,14 @@ h1 {
   align-self: center;
   margin-top: 3.2rem;
   cursor: pointer;
-  color: white;
+  background-color: var(--gold-accent-color);
 }
 .signUp button {
   color: rgb(0, 0, 0);
-  background-color: var(--bright-color);
+  background-color: var(--gold-accent-color);
 }
 .toLogin {
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
   padding: 1.2rem;
   display: grid;
   padding: 3.2rem;

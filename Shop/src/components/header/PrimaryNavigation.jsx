@@ -1,9 +1,45 @@
 import { NavLink } from "react-router-dom";
 import styles from "./PrimaryNavigation.module.css";
+import UserLogged from "./UserLogged";
+import LogSign from "./LogSign";
+import { useState } from "react";
 function PrimaryNavigation() {
+  const [selectedLanguage, setSelectedLanguage] = useState("English");
+  const [selectedCurrency, setSelectedCurrency] = useState("USD");
+
+  const handleLanguageChange = (event) => {
+    setSelectedLanguage(event.target.value);
+    // You can implement logic here to change the language in your application
+  };
+
+  const handleCurrencyChange = (event) => {
+    setSelectedCurrency(event.target.value);
+    // You can implement logic here to change the currency in your application
+  };
+  const logged = true;
   return (
     <nav className={styles.nav}>
-      <li className={styles.navitem}>ETH</li>
+      <li>
+        <select
+          id="language"
+          value={selectedLanguage}
+          onChange={handleLanguageChange}
+        >
+          <option value="English">English</option>
+          <option value="Spanish">Spanish</option>
+          {/* Add more language options as needed */}
+        </select>
+
+        <select
+          id="currency"
+          value={selectedCurrency}
+          onChange={handleCurrencyChange}
+        >
+          <option value="USD">USD</option>
+          <option value="EUR">EUR</option>
+          {/* Add more currency options as needed */}
+        </select>
+      </li>
       <li className={styles.navitem}>
         <NavLink to="/help">help</NavLink>
       </li>
@@ -27,68 +63,8 @@ function PrimaryNavigation() {
           cart
         </NavLink>
       </li>
-      <li className={styles.navitem}>
-        <NavLink to="/login">Login</NavLink>
-      </li>
-      <li className={styles.navitem}>
-        <NavLink to="/sign" className={styles.signUp}>
-          <svg
-            width="2rem"
-            height="1.6rem"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <title>i</title>
-            <g id="Complete">
-              <g id="user-add">
-                <g>
-                  <path
-                    d="M17,21V19a4,4,0,0,0-4-4H5a4,4,0,0,0-4,4v2"
-                    fill="none"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                  <circle
-                    cx="9"
-                    cy="7"
-                    r="4"
-                    fill="none"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                  <line
-                    x1="17"
-                    y1="11"
-                    x2="23"
-                    y2="11"
-                    fill="none"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                  <line
-                    x1="20"
-                    y1="8"
-                    x2="20"
-                    y2="14"
-                    fill="none"
-                    stroke="#000"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                  />
-                </g>
-              </g>
-            </g>
-          </svg>
-          sign up
-        </NavLink>
-      </li>
+
+      {logged ? <UserLogged /> : <LogSign />}
     </nav>
   );
 }

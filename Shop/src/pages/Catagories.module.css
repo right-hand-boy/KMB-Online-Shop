@@ -17,17 +17,14 @@
   left: 0;
   background-color: #fff;
   border: 1px solid #ccc;
-  border-radius: 5px;
   padding: 10px;
   box-shadow: var(--box-shadow);
 }
 .ContainerBox {
   background-color: white;
-  padding: 1.2rem;
 }
 .Catagories_list_box {
   background-color: var(--navigation-color);
-  border-bottom-left-radius: 0.9rem;
   height: fit-content;
 }
 .productItem {
@@ -52,8 +49,6 @@
 }
 .shop {
   display: grid;
-  margin: 1.2rem;
-  border-radius: 0.9rem;
   overflow: hidden;
   grid-template-columns: 1fr 4fr;
 }
@@ -61,4 +56,7 @@
   width: 100%;
   text-align: center;
   align-self: stretch;
+}
+.headerBox {
+  background-color: black;
 }

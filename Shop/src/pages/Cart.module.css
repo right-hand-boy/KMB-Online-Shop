@@ -12,6 +12,9 @@
   font-size: 18px;
   text-align: center;
 }
+.headerBox {
+  background-color: black;
+}
 
 .cartItems {
   margin-top: 20px;

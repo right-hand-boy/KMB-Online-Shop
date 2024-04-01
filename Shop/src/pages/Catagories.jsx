@@ -13,7 +13,9 @@ function Catagories() {
 
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
 
       <div className={styles.ContainerBox}>
         <div className={styles.shop}>
@@ -24,7 +26,6 @@ function Catagories() {
             <CatagoriesImg />
           </div>
         </div>
-        <Order />
       </div>
     </>
   );

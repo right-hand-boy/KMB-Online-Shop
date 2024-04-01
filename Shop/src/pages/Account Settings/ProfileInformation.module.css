@@ -1,0 +1,78 @@
+.ProfileInformation {
+  background-color: white;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  width: -webkit-fill-available;
+  height: auto;
+}
+
+.form {
+  padding: 4.2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  column-gap: 3.2rem;
+  height: fit-content;
+}
+
+.formGroup {
+  display: grid;
+  width: -webkit-fill-available;
+  align-items: center;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.ProfileInformation label {
+  text-transform: capitalize;
+  font-weight: 700;
+  margin-bottom: 3.2rem;
+}
+.ProfileInformation input {
+  padding: 1rem 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-transform: capitalize;
+  width: max-content;
+  margin-bottom: 3.2rem;
+  margin-left: 3.2rem;
+  align-self: center;
+}
+
+.ProfileInformation button {
+  padding: 0.7rem 3.2rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: fit-content;
+  grid-column: 1 / -1;
+  margin-top: 6.2rem;
+  justify-self: end;
+  align-self: center;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.phoneNumberInput {
+  display: flex;
+}
+.phoneNumberInput select {
+  align-self: center;
+  padding: 1rem 1.2rem;
+  width: fit-content;
+  gap: 0;
+  outline: none;
+}
+.phoneNumberInput input {
+  margin: 0;
+}
+.headerBox {
+  background-color: black;
+}

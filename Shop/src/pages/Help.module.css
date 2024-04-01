@@ -2,8 +2,9 @@
   display: flex;
   padding: 0.5rem 3.2rem;
   justify-content: space-between;
-  background-color: var(--navigation-color);
-  color: rgb(0, 0, 0);
+  background-color: var(--primary-color);
+  color: rgb(255, 255, 255);
+  height: fit-content;
 }
 .helpNavBar input {
   background-color: white;
@@ -12,10 +13,15 @@
 }
 .helpSend {
   display: flex;
-  background-color: var(--navigation-color);
+  background-color: var(--primary-color);
+  height: fit-content;
 }
+.headerBox {
+  background-color: black;
+}
+
 .helpSend input {
-  color: rgb(10, 10, 10);
+  color: rgb(253, 253, 253);
   width: 100%;
   background: none;
   padding: 1rem 3.2rem;
@@ -24,12 +30,12 @@
   outline: none;
 }
 .helpSend input::placeholder {
-  color: rgb(8, 8, 8);
+  color: rgb(255, 255, 255);
   text-transform: capitalize;
   letter-spacing: 1.3;
 }
 .helpSend button {
-  color: rgb(17, 16, 16);
+  color: rgb(255, 255, 255);
   background: none;
   /* border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem; */
@@ -39,9 +45,13 @@
   overflow: hidden;
   padding: 0 3.2rem;
   display: grid;
+  min-height: 75.5vh;
+  max-height: 100%;
 }
 .chatBox:hover {
   overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .helpBox {
   box-shadow: 0 0 1rem rgba(41, 40, 40, 0.199);
@@ -53,6 +63,7 @@
   border-top-right-radius: 2rem;
   border-bottom-right-radius: 2rem;
   overflow: hidden;
+  width: 70%;
 }
 .box {
   display: grid;
@@ -60,68 +71,41 @@
   padding: 3.2rem;
   border-radius: 2rem;
   /* gap: 3.2rem; */
+  background-color: white;
 }
 .infoHelp {
   gap: 1.2rem;
   padding: 3.2rem;
   height: 90vh;
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
   overflow: hidden;
   border-top-left-radius: 2rem;
   border-bottom-left-radius: 2rem;
+  width: max-content;
 }
 .infoHelp:hover {
   overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 .description {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.8;
+  width: 50rem;
+  margin: 0 auto;
 }
 .ContainerBox {
   background-color: white;
   padding: 1.2rem;
 }
-.box1 {
-  justify-content: center;
+
+.box {
+  display: flex;
+  grid-template-columns: 1fr 2fr;
   width: 100%;
-  /* border-top-left-radius: 2rem;
-  border-bottom-left-radius: 2rem; */
-  height: 100%;
-  box-shadow: var(--box-shadow);
-  padding: 1.2rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  list-style: none;
-  gap: 1.2rem;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-}
-.answers,
-.questions {
-  padding: 0.5rem 1.2rem;
-  margin: 3.2rem 0;
-  align-self: center;
-  width: fit-content;
-}
-.questions {
-  background-color: var(--primary-color);
-  margin-left: auto;
-  color: white;
-  border-bottom-left-radius: 1.2rem;
-  border-top-left-radius: 0rem;
-  border-top-right-radius: 1.2rem;
-  border-bottom-right-radius: 0rem;
-}
-.answers {
-  background-color: var(--bright-color);
-  color: rgb(7, 7, 7);
-  margin-right: auto;
-  border-bottom-right-radius: 1.2rem;
-  border-top-right-radius: 0rem;
-  border-top-left-radius: 1.2rem;
-  border-bottom-left-radius: 0rem;
+  margin: auto;
+  gap: 0;
 }
 .box1 li {
   padding: 0.5rem;
@@ -153,27 +137,36 @@
 }
 .faqAnswer {
   /* color: red; */
-  padding: 0.65rem 3.2rem;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.205);
+  padding: 0.65rem 1.2rem;
   line-height: 1.9;
+  margin-right: auto;
+  max-width: 60%;
+
+  border-bottom-right-radius: 1.2rem;
+  border-top-right-radius: 0rem;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 0rem;
 }
 .faqItem {
-  margin-bottom: 20px;
+  margin: 2rem;
 }
 .faqSection {
   justify-content: center;
 }
 .faqQuestion {
-  margin-bottom: 10px;
-  box-shadow: 0 0 0.3rem rgba(92, 90, 90, 0.671);
+  border-bottom-left-radius: 1.2rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 0rem;
+  margin: 2rem;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.356);
   padding: 1rem 3.2rem;
   width: fit-content;
-  border-radius: 0.9rem;
   cursor: pointer;
   transition: all 1s;
-}
-.faqQuestion:hover,
-.faqQuestion:active {
-  scale: 1.05;
+  font-size: 1.6rem !important;
+  margin-left: auto;
 }
 
 .hidden {
@@ -192,9 +185,11 @@
   text-align: center;
 }
 h4 {
-  margin-bottom: 3.2rem;
+  margin: 1rem 0;
   text-align: start;
   font-size: 2rem;
+  cursor: pointer;
+  text-transform: capitalize;
 }
 .contactInfo p {
   cursor: pointer;
@@ -208,4 +203,99 @@ h4 {
   color: white;
   text-transform: capitalize;
   margin-left: auto;
+}
+h3 {
+  text-transform: capitalize;
+  margin: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  box-shadow: 0 0 0.5rem gold;
+  padding: 0.5rem;
+}
+.history li:hover {
+  scale: 1.05;
+}
+.infoHelp h3:hover {
+  scale: 1.05;
+}
+span {
+  margin-left: auto;
+}
+.history {
+  list-style: none;
+  display: grid;
+  color: white;
+  gap: 1rem;
+}
+.history li {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  margin-left: 2.2rem;
+  text-transform: capitalize;
+  box-shadow: 0 0 0.2rem gold;
+}
+.account {
+  color: rgb(255, 255, 255) !important;
+}
+.account {
+  list-style: none;
+  text-transform: capitalize;
+  gap: 1rem;
+}
+.account li {
+  margin: 1.2rem 3.2rem;
+}
+.account :hover {
+  color: rgb(255, 255, 255);
+}
+.account h3 {
+  box-shadow: none;
+  color: white;
+}
+
+.infoHelp h3 {
+  color: white;
+}
+.profile {
+  width: 4rem;
+  height: 4rem;
+  background-color: rgb(9, 128, 231);
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile img {
+  width: 100%;
+  height: 100%;
+}
+.usersInfo {
+  display: flex;
+  gap: 3.2rem;
+  align-items: center;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.navlink {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: fit-content;
+  margin: 1.2rem auto;
+  column-gap: 3.2rem;
+  margin-top: 6.2rem;
+}
+.navlink p {
+  padding: 0.7rem 1.2rem;
+  background-color: rgb(211, 208, 205);
+  border-radius: 0.7rem;
+  box-shadow: 0 0 0.3rem rgba(0, 0, 0, 0.288);
+  margin-top: 3.2rem;
+}
+.navlink p {
+  cursor: pointer;
+}
+.last {
+  height: 9rem;
+  width: 100%;
+  margin-bottom: 9.2rem;
 }

@@ -1,5 +1,4 @@
 import styles from "./Logo.module.css";
-import img from "../../../public/logo.jpg";
 import { NavLink } from "react-router-dom";
 function Logo() {
   return (

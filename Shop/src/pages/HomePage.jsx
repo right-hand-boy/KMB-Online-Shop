@@ -62,7 +62,9 @@ function HomePage() {
   return (
     <>
       <div className={styles.home}>
-        <Header />
+        <div className={styles.headerBox}>
+          <Header />
+        </div>
         <div className={styles.homePage}>
           <div className={styles.hero}>
             <h1>get your first order with free delivery</h1>

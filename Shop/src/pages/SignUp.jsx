@@ -90,7 +90,9 @@ import styles from "./SignUp.module.css";
 function SignUp() {
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
       <div className={styles.ContainerBox}>
         <div className={styles.signUpcontinar}>
           <div className={styles.toLogin}>

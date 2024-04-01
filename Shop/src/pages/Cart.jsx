@@ -19,7 +19,9 @@ function Cart() {
 
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
       <div className={styles.ContainerBox}>
         <div className={styles.container}>
           <h1>Shopping Cart</h1>

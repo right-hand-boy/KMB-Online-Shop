@@ -1,0 +1,33 @@
+.Account a {
+  color: rgb(255, 255, 255);
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.accountSettingOption a {
+  color: rgb(3, 3, 3);
+  text-transform: capitalize;
+}
+.accountSettingOption a:hover {
+  background-color: var(--light-color);
+  color: rgb(139, 137, 137);
+}
+.accountSettingOption {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  padding: 3.2rem;
+  width: max-content;
+  font-size: 2rem;
+  height: 100%;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.219);
+}
+.AccountlinkActive {
+  border: 1px solid rgb(199, 198, 195);
+}
+.accountSettingOption a {
+  padding: 0.5rem;
+
+  border-radius: 0.7rem;
+}

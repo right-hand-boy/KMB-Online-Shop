@@ -8,7 +8,7 @@ function Header() {
     <header className={styles.header}>
       <Logo />
       <Search />
-      <PrimaryNavigation />
+      {<PrimaryNavigation />}
       <Menu />
     </header>
   );

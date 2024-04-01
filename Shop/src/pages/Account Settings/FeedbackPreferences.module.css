@@ -1,0 +1,30 @@
+.FeedbackPreferences {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.headerBox {
+  background-color: black;
+}
+.feedbackPreferencePage {
+  padding: 20px;
+}
+
+.preferenceList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.preferenceOption {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.preferenceOption h2 {
+  margin-bottom: 5px;
+}
+
+.preferenceOption p {
+  margin: 0;
+}

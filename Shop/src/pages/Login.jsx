@@ -8,7 +8,9 @@ import { NavLink } from "react-router-dom";
 function Login() {
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
       <div className={styles.ContainerBox}>
         <div className={styles.signUpcontinar}>
           <div className={styles.signUp}>

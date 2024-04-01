@@ -1,0 +1,25 @@
+/* 404Page.module.css */
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.title {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.description a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.description a:hover {
+  text-decoration: underline;
+}

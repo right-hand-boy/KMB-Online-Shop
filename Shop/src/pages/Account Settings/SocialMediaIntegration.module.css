@@ -1,0 +1,30 @@
+.SocialMediaIntegration {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.headerBox {
+  background-color: black;
+}
+.socialMediaIntegrationPage {
+  padding: 20px;
+}
+
+.socialMediaList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.socialMediaOption {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.socialMediaOption h2 {
+  margin-bottom: 5px;
+}
+
+.socialMediaOption p {
+  margin: 0;
+}

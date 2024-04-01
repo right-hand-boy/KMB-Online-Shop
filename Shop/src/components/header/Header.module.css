@@ -7,4 +7,8 @@
   padding: 1.2rem;
   column-gap: 6.4rem;
   overflow: hidden;
+  /* background-color: var(--primary-color); */
+}
+.home .header {
+  background: none !important;
 }

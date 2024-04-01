@@ -9,12 +9,10 @@
   padding: 1.3rem;
   list-style: none;
   gap: 3.2rem;
-  height: 50rem;
+  height: auto;
   overflow: hidden;
 }
-.CatagoriesImg:hover {
-  overflow-y: scroll;
-}
+
 .CatagoriesBox {
   display: grid;
   grid-template-columns: 3fr 2fr;

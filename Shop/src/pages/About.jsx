@@ -2,13 +2,15 @@ import Header from "../components/header/Header";
 
 import Footer from "../components/footer/Footer";
 import styles from "./About.module.css";
-import product from "../../public/backgroundd.jfif";
-import phone from "../../public/phone.jfif";
-import secure from "../../public/secure.jfif";
+import product from "/backgroundd.jfif";
+import phone from "/phone.jfif";
+import secure from "/secure.jfif";
 function About() {
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
       <div className={styles.ContainerBox}>
         <div className={styles.container}>
           <h1>About KMB Online Shop</h1>

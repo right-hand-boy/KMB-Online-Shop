@@ -1,11 +1,11 @@
 import styles from "./CatagoriesImg.module.css";
-import watch_1 from "../../../public/products/watch_1.jpg";
-import furnituer from "../../../public/products/furnituer.jpg";
-import compuer_1 from "../../../public/products/computer_1.jpg";
-import cloth from "../../../public/products/cloths.jfif";
-import jacket from "../../../public/products/jacket.jfif";
-import suit from "../../../public/products/suit.jfif";
-import tshirt from "../../../public/products/T-Shirts.jfif";
+import watch_1 from "/Catagories/watch_1.jpg";
+import furnituer from "/Catagories/furnituer.jpg";
+import compuer_1 from "/Catagories/computer_1.jpg";
+import cloth from "/Catagories/cloths.jfif";
+import jacket from "/Catagories/jacket.jfif";
+import suit from "/Catagories/suit.jfif";
+import tshirt from "/Catagories/T-Shirts.jfif";
 function CatagoriesImg() {
   return (
     <div className={styles.CatagoriesImg}>

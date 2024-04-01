@@ -2,18 +2,21 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-  --primary-color: #1995ad;
+  --primary-color: #000000;
+  --gold-accent-color: RGB(255, 215, 0);
+  --box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.199);
   --light-color: #f1f1f2;
+
+  /* --primary-color: #1995ad;
   --dark-color: #101820;
   /* --bright-color: #ffa52c; */
-  --bright-color: rgb(255, 188, 4);
+  /* --bright-color: rgb(255, 188, 4); */
   /* --bright-color: red; */
-  --navigation-color: #66a5ad;
-  --secondary-color: #c4dfe6;
+  /* --navigation-color: #66a5ad; */
+  /* --secondary-color: #c4dfe6; */
   /* --navigation-color: #a1d6e2;
   --secondary-color: #5f5e5d; */
   /* , #EA738D #fee715*/
-  --box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.199);
   color: rgba(7, 7, 7, 0.87);
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,7 +32,8 @@ html {
   font-size: 62.5%;
   color: black;
   box-sizing: border-box;
-  background-color: var(--dark-color);
+  scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 body {
   font-size: 1.6rem;
@@ -42,7 +46,12 @@ a {
 a:hover {
   color: #ffffff;
 }
-
+.hidden {
+  display: none;
+}
+input {
+  outline: none;
+}
 /* 
 button {
   border-radius: 8px;

@@ -1,0 +1,26 @@
+.NotificationSetting {
+  background-color: white;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.headerBox {
+  background-color: black;
+}
+/* NotificationSettingPage.css */
+
+.notification-setting-page {
+  padding: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+.option input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.option label {
+  font-weight: bold;
+}

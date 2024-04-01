@@ -1,0 +1,6 @@
+.PrivacySetting {
+  background-color: white;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}

@@ -3,7 +3,9 @@ import Header from "../components/header/Header";
 function Contact() {
   return (
     <>
-      <Header />
+      <div className={styles.headerBox}>
+        <Header />
+      </div>
       <div className={styles.ContainerBox}>
         <div className={styles.container}>
           <h1>Contact Us</h1>

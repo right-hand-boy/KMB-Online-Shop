@@ -17,6 +17,9 @@
 .contactInfo {
   margin-top: 20px;
 }
+.headerBox {
+  background-color: black;
+}
 
 .infoItem {
   display: flex;

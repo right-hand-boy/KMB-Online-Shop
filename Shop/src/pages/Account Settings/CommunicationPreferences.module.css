@@ -1,0 +1,26 @@
+.CommunicationPreferences {
+  background-color: white;
+  height: 70vh;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.headerBox {
+  background-color: black;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.options {
+  margin-top: 20px;
+}
+
+.option {
+  margin-bottom: 10px;
+}
+
+label {
+  margin-left: 10px;
+}

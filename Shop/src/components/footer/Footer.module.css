@@ -5,7 +5,7 @@
   row-gap: 3.2rem;
 }
 .continar {
-  background-color: var(--dark-color);
+  background-color: var(--primary-color);
 }
 .footerForm {
   flex-direction: column;
@@ -14,7 +14,7 @@
 }
 .footerForm li,
 .footerForm a {
-  color: rgba(161, 155, 155, 0.658);
+  color: rgba(214, 212, 212, 0.658);
   list-style: none;
   text-transform: capitalize;
   cursor: pointer;
@@ -49,6 +49,7 @@
   display: grid;
   width: 100%;
   color: white;
+  row-gap: 5rem;
 }
 .guide,
 .privacy {

@@ -1,0 +1,26 @@
+.UserDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  align-self: flex-end;
+}
+.UserDetailBox {
+  /* box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.219); */
+  padding: 3.2rem;
+  width: fit-content;
+  margin-left: auto;
+  height: fit-content;
+}
+.profileImageBox {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+.profileImageBox img {
+  width: 100%;
+  height: 100%;
+}
+.UserDetail a:hover {
+  color: black;
+}

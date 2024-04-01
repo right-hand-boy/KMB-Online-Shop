@@ -1,27 +1,31 @@
 .catagoriesList {
-  width: 100%;
   padding: 1.2rem;
   list-style: none;
   display: block;
-  height: 53vh;
+  height: auto;
   overflow: hidden;
-  background-color: var(--secondary-color);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.219);
+  background: linear-gradient(to right bottom, grey, gray);
+  background-color: var(--light-color);
 }
-.catagoriesList:hover {
-  overflow-y: scroll;
+.catagoriesList h2 {
+  color: black;
+  margin-left: -12rem;
+  text-transform: capitalize;
 }
 .catagoriesList li {
-  width: 100%;
-  margin: 1.2rem 0;
+  margin: 1.2rem 0 1.2rem 3.2rem;
   padding: 1.2rem 3.2rem;
   border-radius: 0.9rem;
-  border: 1px solid rgba(5, 5, 5, 0.747);
   text-transform: capitalize;
-  color: rgb(3, 3, 3);
+  color: rgb(0, 0, 0);
   font-weight: 500;
+  width: 80%;
 }
 
 .catagoriesList li:hover {
-  background-color: var(--light-color);
-  color: black;
+  /* background-color: var(--light-color); */
+  background-color: white;
+  background-blend-mode: darken;
+  /* color: rgb(139, 137, 137); */
 }

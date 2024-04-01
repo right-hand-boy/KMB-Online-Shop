@@ -22,6 +22,7 @@
   font-size: 2rem;
   position: relative;
   overflow: hidden;
+  display: flex;
 }
 .signUp {
   background-color: var(--bright-color);

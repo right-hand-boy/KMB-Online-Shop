@@ -1,0 +1,25 @@
+.answers,
+.questions {
+  padding: 0.5rem 1.2rem;
+  margin: 3.2rem 0;
+  align-self: center;
+  width: fit-content;
+}
+.questions {
+  background-color: var(--primary-color);
+  margin-left: auto;
+  color: white;
+  border-bottom-left-radius: 1.2rem;
+  border-top-left-radius: 0rem;
+  border-top-right-radius: 1.2rem;
+  border-bottom-right-radius: 0rem;
+}
+.answers {
+  background-color: var(--gold-accent-color);
+  color: rgb(7, 7, 7);
+  margin-right: auto;
+  border-bottom-right-radius: 1.2rem;
+  border-top-right-radius: 0rem;
+  border-top-left-radius: 1.2rem;
+  border-bottom-left-radius: 0rem;
+}

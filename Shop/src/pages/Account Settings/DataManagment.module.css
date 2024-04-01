@@ -1,0 +1,30 @@
+.DataManagment {
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+.headerBox {
+  background-color: black;
+}
+.dataManagementPage {
+  padding: 20px;
+}
+
+.optionList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.option {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.option h2 {
+  margin-bottom: 5px;
+}
+
+.option p {
+  margin: 0;
+}
