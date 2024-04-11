@@ -1,12 +1,10 @@
-👋 Hi there! I'm biniyamm kefyalew, a passionate full-stack developer and computer engineering enthusiast based in bahirdar ethiopia. 
+👋 Hi there! I'm biniyamm kefyalew, a passionate front developer and computer engineering enthusiast based in bahirdar ethiopia. 
 With a solid foundation in computer engineering and a knack for creative problem-solving, 
-I specialize in crafting robust and innovative software solutions that deliver exceptional user experiences.
 
-💻 As a full-stack developer, I'm well-versed in both front-end and back-end technologies.
-From designing intuitive user interfaces with HTML, CSS, and JavaScript to building scalable server-side applications using frameworks like Node.js and Django,
-I thrive on bringing ideas to life across the entire technology stack.
+💻 As a front end developer, I'm well-versed in both front-end technologies.
+From designing intuitive user interfaces with HTML, CSS,  JavaScript  and framework like react
 
-🛠️ My journey in computer engineering has equipped me with a deep understanding of software architecture, 
+🛠️ My journey in computer engineering  equipped me with a deep understanding of software architecture, 
 algorithms, and system design principles. Whether it's optimizing database performance, implementing complex algorithms, or architecting scalable cloud-based solutions,
 I'm always eager to tackle new challenges and push the boundaries of what's possible.
 
